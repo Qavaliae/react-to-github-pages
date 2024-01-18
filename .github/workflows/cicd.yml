@@ -22,10 +22,6 @@ jobs:
       - name: Installing NPM packages
         run: npm ci
 
-      - name: Configure base path
-        run: |
-          sed -i 's/base: "\/"/base: "\/react-to-github-pages"/g' vite.config.ts
-
       - name: Building project
         run: npm run build
 
