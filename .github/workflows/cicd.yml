@@ -17,9 +17,6 @@ jobs:
 
       - name: Installing NPM packages
         run: npm ci
-        
-      - name: Set up Pages
-        uses: actions/configure-pages@v3
 
       - name: Building project
         run: npm run build
