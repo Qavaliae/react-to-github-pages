@@ -1,5 +1,6 @@
 {
   "name": "react-to-github-pages",
+  "homepage": "/react-to-github-pages",
   "private": true,
   "version": "0.0.0",
   "type": "module",
