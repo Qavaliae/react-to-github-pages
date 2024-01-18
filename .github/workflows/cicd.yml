@@ -33,6 +33,10 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    
+    concurrency:
+      group: pages
+      cancel-in-progress: true
 
     environment:
       # environment created automatically by GitHub
